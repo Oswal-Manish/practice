@@ -32,7 +32,7 @@ public class BinarySearch {
 	}
 
 	public static int binarySearch(int[] arr, int target) {
-		int high = arr.length;
+		int high = arr.length-1;
 		int low = 0;
 		int mid;
 		while (low <= high) {

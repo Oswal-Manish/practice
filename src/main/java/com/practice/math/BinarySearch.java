@@ -11,7 +11,7 @@ public class BinarySearch {
 		System.out.println("Enter Number to search in array : ");
 //		System.out.println(binarySearchRecursive(arr, scan.nextInt(), 0, arr.length));
 		System.out.println(binarySearch(arr, scan.nextInt()));
-		
+		scan.close();
 	}
 
 	public static int binarySearchRecursive(int[] arr, int target, int low, int high) {

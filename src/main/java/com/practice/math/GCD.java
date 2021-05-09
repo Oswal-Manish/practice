@@ -13,6 +13,7 @@ public class GCD {
 		int inputNumber2 = scan.nextInt();
 		//System.out.println(gcd(inputNumber1,inputNumber2));
 		System.out.println(gcdRecursive(inputNumber1,inputNumber2));
+		scan.close();
 	}
 	
 	public static int gcd(int no1, int no2) {
